@@ -6,7 +6,6 @@ package polymorphism;
  * @author Elias
  */
 public class LoadImplAtRuntime {
-    
     private int msgNo= 1;
     private AnyClassThatNeedsToLogSomethings client = new AnyClassThatNeedsToLogSomethings();
 /**
@@ -30,7 +29,5 @@ public class LoadImplAtRuntime {
         Logger logInstance = (Logger)logClass.newInstance();
         client.setLogger(logInstance);
         client.anyMethod(msgNo++);
-        
     }
-    
 }

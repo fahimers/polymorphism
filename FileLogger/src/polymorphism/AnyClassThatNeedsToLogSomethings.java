@@ -3,17 +3,14 @@
  * specified logger.
  */
 package polymorphism;
-
 /**
  * @author Elias
  */
-
 public class AnyClassThatNeedsToLogSomethings {
-    private Logger logger;
     
+    private Logger logger;
     public void setLogger(Logger logger){
         this.logger= logger;
-        
     }
     /**
  * Prints to the log. The logged string includes the
@@ -22,8 +19,7 @@ public class AnyClassThatNeedsToLogSomethings {
  * @param msgNo This number is included in the logged
  * string.
  */
-    
-  public void anyMethod(int msgNo){
+    public void anyMethod(int msgNo){
       logger.log("important message number"+msgNo);
   }  
     

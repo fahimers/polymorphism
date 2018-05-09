@@ -1,11 +1,8 @@
 /**
  * Contains the main method of the log API client.
  */
-
 package polymorphism;
-
 /**
- *
  * @author Elias
  */
 public class Main {
@@ -16,7 +13,7 @@ public class Main {
   public static void main(String[] args){
       AnyClassThatNeedsToLogSomethings client = new AnyClassThatNeedsToLogSomethings();
       
-     // client.setLogger(new FileLogger());
+      client.setLogger(new FileLogger());
       client.anyMethod(1);
       client.anyMethod(2);
       client.anyMethod(3);

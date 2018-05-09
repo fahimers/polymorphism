@@ -4,7 +4,6 @@ package polymorphism;
  * A client for the logger. Prints log messages to the
  * specified logger.
  */
-
 public class AnyClassThatNeedsToLogSomething {
     private FileLogger logger;
     

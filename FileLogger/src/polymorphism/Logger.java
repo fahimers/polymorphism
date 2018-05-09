@@ -4,9 +4,7 @@
 *  class to decide where the log is.
  */
 package polymorphism;
-
 /**
- *
  * @author Elias
  */
 public interface Logger {
